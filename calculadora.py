@@ -1,5 +1,11 @@
-print("--- CALCULADORA DE SOMA ---")
-numero1 = int(input("Digite o primeiro numero: "))
-numero2 = int(input("Digite o segundo numero: "))
-soma = numero1 + numero2
-print(f"A soma de {numero1} e {numero2} é {soma}")
+print("--- SUPER CALCULADORA ---")
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+soma = num1 + num2 
+subtracao = num1 - num2
+multiplicacao = num1 * num2
+divisao = num1 / num2
+print("A soma é: ", soma)
+print("A subtração é: ", subtracao)
+print("A multiplicação é: ", multiplicacao)
+print("A divisão é: ", divisao)
